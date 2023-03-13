@@ -81,8 +81,32 @@ button {
 }
 
 .container-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color:white;
     color: #1f2937;
+}
+
+.container-three-three {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-three-two {
+    display: flex;
+    align-items: center;
+}
+
+.another-placeholder {
+    border: 5px solid #3882f6;
+    height: 200px;
+    width: 175px;
+}
+
+.paragraph-three {
+    padding: 50px;
+    width: 175px;
 }
 
 .container-four {
