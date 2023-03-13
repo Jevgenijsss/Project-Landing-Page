@@ -24,11 +24,7 @@ a {
 }
 
 .container-one {
-    padding-left: 15vw;
-}
-
-.container-two {
-    width: 35%;
+    padding-left: 10vw;
 }
 
 .header-container {
@@ -54,6 +50,27 @@ a {
 button, 
 .call-to-action {
     background-color: #3882f6;
+}
+
+.container-two {
+    display: flex;
+}
+
+.container-two-one {
+    max-width: 25vw;
+    padding-bottom: 10vh;
+}
+
+.container-placeholder {
+    margin-top: 4vh;
+    margin-left: 15vh;
+    height: 250px;
+    width: 30vw;
+    background-color: grey;
+}
+
+.main-heading-text {
+    margin-bottom: 20px;
 }
 
 button {
