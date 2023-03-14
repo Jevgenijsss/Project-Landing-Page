@@ -88,9 +88,14 @@ button {
     color: #1f2937;
 }
 
+.container-three-one {
+    padding: 20px 0;
+}
+
 .container-three-three {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .container-three-two {
@@ -100,19 +105,73 @@ button {
 
 .another-placeholder {
     border: 5px solid #3882f6;
+    border-radius: 20%;
     height: 200px;
     width: 175px;
 }
 
 .paragraph-three {
-    padding: 50px;
+    padding: 10px 30px;
     width: 175px;
+    margin: 0 0 100px;
+    text-align: center;
+
 }
 
 .container-four {
-    background-color: grey;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 120px 290px;
+}
+
+.paragraph-four {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.paragraph-four.one {
+    font-style: italic;
+}
+
+.paragraph-four.two {
+    font-weight: bold;
+    text-align: right;
+}
+
+.header-action{
+    margin: 0;
+}
+
+.container-action {
+    background-color: white;
+    padding: 80px 180px;
+}
+
+.call-to-action {
+    padding: 40px 90px;
+    display: flex;
 }
 
 .button-border {
     border: 1px solid#f9faf8;
+}
+
+.call-to-action-txt {
+    margin-right: 150px;
+}
+
+.call-paragraph {
+    margin: 0;
+}
+
+.call-to-action-btn {
+    display: flex;
+    align-items: flex-end;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
 }
